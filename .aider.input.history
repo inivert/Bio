@@ -1,0 +1,128 @@
+
+# 2024-08-14 00:41:53.030561
++using html,css and javascript make a reactive, responsive, smooth and modern landing page for social links similar to linktree, the page should be mostly optimized for mobile phone view. Make it modern and cool, leave space to add options like adding a music player like spotify or soundcloud and for animated background or custumizable background. name is INIVERT
+
+# 2024-08-14 00:43:36.653463
++make it look more modern, the colors and font makes it look old, also make the buttons more rounded or make them fully transparent or semi transparent
+
+# 2024-08-14 00:44:48.067686
++make a water effect as the mouse move throught the screen and a water effect if the user touches the screen
+
+# 2024-08-14 00:47:32.715568
++change the colors to yellow with a more darker theme, also add stylish icons, and add tiktok, kick, X instead of twitter and remove linkedin... shoot for a UI similar to what X platform has but with the yellow
+
+# 2024-08-14 00:48:48.468740
++the buttons text dont align with the space, also change the mouse effect to water waves on a 2D plane as seen from above
+
+# 2024-08-14 00:51:30.600798
++the emojis/icons aren't visible, remove the mouse effect and focus on having more interaction, and animations throughtout the page, always keeping it optimized for mobile, 
+
+# 2024-08-14 00:52:42.822646
++the icon for X is missing/not visible
+
+# 2024-08-14 01:02:35.037511
++use this code as guide to make the word INIVERT <svg class="letter-i" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
++   <path class="cls-1 stem" style="--item: 1; --color: rgb(246, 9, 149)" d="M534,688c-21.86-.21-46.54-1.64-60.89-18.14-11.57-13.31-12.73-32.47-13.32-50.1q-3.09-92.09-6.16-184.16c-2-59.35-3.65-120.66,18.22-175.87a1078.09,1078.09,0,0,1-201.94,61.42c19.19-1.82,41.22-2.67,54.66,11.13,11,11.33,12.29,28.69,12.83,44.49q4.38,127.62,2.16,255.36c-.21,11.76-.66,24.21-7.08,34.07-10.83,16.63-32.76,19-50.79,20.49-4.64.37-25.91-.25-23.84,5.56,2.43,6.8,20.9,4.78,25.36,4.62q80.61-2.88,161.22-5.7C474.19,690.11,504.23,687.72,534,688Z"/>
++   <path class="cls-1 stem" style="--item: 2; --color: rgb(254, 219, 59)" d="M467.79,653.59c-10.4-22.45-10.49-48.11-10.39-72.85.41-107.63.84-215.47,11.61-322.56a560.3,560.3,0,0,1-228.84,67c28.68-8.32,80.6-14.86,94.58,11.52s8.15,97.66,9.11,127.5c1.6,49.55-10.71,104.47-9.11,154,.49,15,.77,27.26-4.14,41.4-7,20.1-24.22,19.47-43.69,28.06s-41.06,11.15-62.32,11.9c37.92-1.33,76.07-7.73,114-10q57.9-3.47,115.93-3.65,16.57,0,33.15.17c9.49.12,22.1-1.59,31,1.12-.68,9.24-24.07-3.46-27.88-6.09A68.81,68.81,0,0,1,467.79,653.59Z"/>
++<path class="cls-1 stem" style="--item: 3; --color: rgb(49, 191, 186)" d="M472.69,265.28Q415.92,287,357.31,303.39C340,308.24,321.6,315,303.63,315.64c-9,.3-17.16,3.07-25.8,5.48-7.75,2.17-19.37,8-27.33,7.65,15.86.74,32.93-3.61,48.62-5.68,10.35-1.37,22.15-2.32,30,4.6,6.16,5.45,7.93,14.22,9,22.37,4.45,33.43-1.43,64.83-.84,98.22.78,44.36,2.35,88.79,2.35,133.15.39,22.14.55,45.33-9.64,65-15.12,29.15-48.56,42.89-79.33,54.34A2122.89,2122.89,0,0,0,526,694.17c-19.73,1.13-38-12.56-47.79-29.71s-12.74-37.28-14.86-56.92C451,493.83,459.85,378.93,472.69,265.28Z"/>
++  
++   <path class="cls-1 dot" style="--item: 1; --color: rgb(88, 40, 215)" d="M378.7,89.91c-17.65,14.52-34.72,30.92-43.88,51.86S326,189.21,341,206.48c8.14,9.39,19.75,15.23,31.72,18.55,25.22,7,53.35,3.24,75.49-10.7s37.77-38,40.81-64c1.33-11.45.17-23.6-5.85-33.43-6.27-10.25-17-16.86-28-21.87-14.09-6.45-29.52-10.94-44.95-9.58s-30.85,9.36-38.26,23"/>
++   <path class="cls-1 dot" style="--item: 2; --color: rgb(246, 9, 149)" d="M360,95a85.56,85.56,0,0,0-34.89,62.73c-1,15.07,2.42,31,12.41,42.35,7.93,9,19.27,14.35,30.81,17.67,22.29,6.41,46.87,5.91,68.14-3.37s38.78-27.73,45-50.08.3-48.15-16.48-64.17c-15-14.32-36.51-19.77-57.22-20.88S354.37,85.36,343.42,106"/>
++   
++   <path class="cls-1 dot" style="--item: 3; --color: rgb(254, 219, 59)" d="M350.86,214.05c16.6,13.44,40.51,12.88,61.34,8.15,18.88-4.28,37.51-11.67,51.9-24.63,14.64-13.18,17.36-23.28,14-41.64A63.93,63.93,0,0,0,449.66,113c-19.08-12.13-43.28-14.4-65.45-9.91-17.84,3.61-35.33,11.77-47,25.78-9.84,11.86-16.54,31.25-10.52,46.34C331.89,188.16,339.89,205.18,350.86,214.05Z"/>
++</svg>
+
+# 2024-08-14 01:04:09.951873
++make each letter do the same, here is the rest of the code body 
++  display: flex
++  justify-content: center
++  align-items: center 
++  height: 100vh
++  background-color: #000
++  
++.letter-i
++  width: 80vh
++  height: 80vh
++
++  
++.cls-1
++  $delay: calc(var(--item) * 1s)
++  fill: none
++  stroke: #000
++  stroke-miterlimit: 10
++  stroke-width: 5px
++  stroke-linecap: round
++  stroke-miterlimit: 10
++  stroke-dasharray: 1500
++  animation: lines 4s infinite $delay
++  
++.dot
++  stroke-dasharray: 500
++  stroke: var(--color)
++  
++.stem
++  stroke: var(--color)
++
++@keyframes lines 
++  100% 
++    stroke-dashoffset: 3000
+
+# 2024-08-14 01:14:16.969837
++make the letter V and the letter T look like the letter I with its animations, loop the animations, also add an animation that would loop every 5 seconds of a rubberband effect to the instagram button
+
+# 2024-08-14 01:15:44.061530
++make the letters V and T have the look and feel exactly like letter I
+
+# 2024-08-14 01:17:45.042166
++now they look like I i want it to keep looking like the actual letter they are meant to be making the name I N I V E R T
+
+# 2024-08-14 01:20:34.107459
++revert the letters to normal and keep all the I's with the animation i provided, also add a twitch button
+
+# 2024-08-14 01:24:30.855564
++take away the animations for the I's and make them like the others, add a small github icon link at the buttom right of the page
+
+# 2024-08-14 01:27:39.920158
++the page when the window is minimized the buttons become funky and dont look right, would this effect the view in mobile
+
+# 2024-08-14 01:29:34.021337
++im looking at the mobile version of the webpage and it does look bad, the buttons and font looks extra large and the page its not centered
+
+# 2024-08-14 01:31:07.304510
++make the text of the buttons centered, and add the same slow animation the buttons have to the name
+
+# 2024-08-14 01:31:45.406899
++center the text of the buttons
+
+# 2024-08-14 01:32:42.309867
++still looks the same, the text and icon of the button is pushed the left and theres a big empty space to the right of it, make it centered
+
+# 2024-08-14 08:29:07.191922
++add index.html
+
+# 2024-08-14 08:29:46.368152
++/add script.js
+
+# 2024-08-14 08:29:52.917130
++/add styles.css
+
+# 2024-08-14 08:30:38.370730
++make the borders of the buttons a little ticker or fix the problem that when the buttons are slowly moving it flickers
+
+# 2024-08-14 08:32:20.288397
++make it so when the user slides the screen with its finger the button or the page doesnt move unless is to scroll down or up
+
+# 2024-08-14 08:34:00.618606
++change the background color to a matte dark and make it look cooler maybe add gradiants to it
+
+# 2024-08-14 08:36:32.272648
++make it so when the user click on one of the buttons it has a delay before opening the link that way the user can apreaciate the click animation
+
+# 2024-08-14 08:42:11.675381
++make an animation that would show on the background of the whole page, make it slow and smooth like fire ashes, make partices apear and disapear across the whole page, particles must not resemble the likes of fire therefore the particles should be white or yellow or both
+
+# 2024-08-14 08:43:16.149596
++make the particles slithly slower and smaller
+
+# 2024-08-14 08:48:05.577044
++add a scroll down animation or slide down for mobile anination, make also make the main button which is the one for instagram pop a little more, add a 3d effect
