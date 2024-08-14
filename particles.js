@@ -6,16 +6,16 @@ document.addEventListener('DOMContentLoaded', () => {
     canvas.height = window.innerHeight;
 
     const particles = [];
-    const particleCount = 40;
+    const particleCount = 30;
 
     class Particle {
         constructor() {
             this.x = Math.random() * canvas.width;
             this.y = Math.random() * canvas.height;
-            this.size = Math.random() * 3 + 0.5;
-            this.speedX = Math.random() * 0.3 - 0.15;
-            this.speedY = Math.random() * 0.3 - 0.15;
-            this.opacity = Math.random() * 0.5 + 0.5;
+            this.size = Math.random() * 4 + 1;
+            this.speedX = Math.random() * 0.2 - 0.1;
+            this.speedY = Math.random() * 0.2 - 0.1;
+            this.opacity = Math.random() * 0.3 + 0.7;
             this.color = Math.random() < 0.5 ? 'rgba(255, 255, 255,' : 'rgba(255, 215, 0,';
         }
 
@@ -23,8 +23,8 @@ document.addEventListener('DOMContentLoaded', () => {
             this.x += this.speedX;
             this.y += this.speedY;
 
-            if (this.size > 0.2) this.size -= 0.1;
-            if (this.opacity > 0) this.opacity -= 0.005;
+            if (this.size > 0.2) this.size -= 0.01;
+            if (this.opacity > 0) this.opacity -= 0.001;
 
             if (this.x < 0 || this.x > canvas.width) this.speedX *= -1;
             if (this.y < 0 || this.y > canvas.height) this.speedY *= -1;

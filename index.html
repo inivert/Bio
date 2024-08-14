@@ -7,10 +7,15 @@
     <title>INIVERT - Your Social Links</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script type="module">
+      import { inject } from "@vercel/analytics";
+      inject();
+    </script>
 </head>
 <body>
-    <div class="container">
-        <header>
+    <div class="scroll-container">
+        <div class="container">
+            <header>
             <img src="/images/inivert (1).png" alt="Profile Picture" class="profile-picture">
             <h1>
                 <span class="letter">I</span>
@@ -21,7 +26,7 @@
                 <span class="letter">R</span>
                 <span class="letter">T</span>
             </h1>
-            <p>Connect with me across platforms</p>
+            <p class="connect-text">Connect with me across platforms</p>
         </header>
         <main>
             <div class="links">
@@ -52,9 +57,10 @@
                 </a>
             </div>
         </main>
-        <footer>
-            <p>&copy; 2024 INIVERT. All rights reserved.</p>
-        </footer>
+            <footer>
+                <p>&copy; 2024 INIVERT. All rights reserved.</p>
+            </footer>
+        </div>
     </div>
     <!-- Placeholder for future music player -->
     <div id="music-player"></div>

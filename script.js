@@ -2,12 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const links = document.querySelectorAll('.link-item');
     const letters = document.querySelectorAll('.letter');
 
-    // Prevent default touch behavior on non-scrollable elements
-    document.addEventListener('touchmove', function(e) {
-        if(!e.target.closest('.links')) {
-            e.preventDefault();
-        }
-    }, { passive: false });
+    // Remove the touchmove event listener that was preventing scrolling
 
     // Animate letters on page load
     letters.forEach((letter, index) => {
