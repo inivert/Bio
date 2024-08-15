@@ -4,19 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#6c5ce7">
-    <title>INIVERT - Your Social Links</title>
+    <meta name="author" content="Carlos (INIVERT)">
+    <meta name="description" content="Connect with INIVERT across various social media platforms. Find links to Kick, X, YouTube, TikTok, Instagram, and Twitch.">
+    <meta name="keywords" content="INIVERT, Carlos, social links, Kick, X, YouTube, TikTok, Instagram, Twitch">
+    <title>INIVERT - Your Social Links | Connect with Carlos</title>
     <link rel="stylesheet" href="styles.css">
+    <!-- I'm using Font Awesome for icons. It's a great resource for adding visual elements to your page. -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- This script is for Vercel Analytics. You can remove it if you're not using Vercel for deployment. -->
     <script type="module">
       import { inject } from "@vercel/analytics";
       inject();
     </script>
 </head>
 <body>
+    <!-- The scroll-container allows for smooth scrolling on mobile devices -->
     <div class="scroll-container">
         <div class="container">
             <header>
+            <!-- Replace 'inivert (1).png' with your own profile picture -->
             <img src="/images/inivert (1).png" alt="Profile Picture" class="profile-picture">
+            <!-- I learned that breaking the title into individual letters allows for cool animations -->
             <h1>
                 <span class="letter">I</span>
                 <span class="letter">N</span>
@@ -29,31 +37,40 @@
             <p class="connect-text">Connect with me across platforms</p>
         </header>
         <main>
+            <!-- The fortune cookie feature adds a fun, interactive element to the page -->
+            <div class="fortune-cookie-container">
+                <button id="fortune-cookie-btn">
+                    <i class="fas fa-cookie-bite"></i>
+                    <span>Open Your Fortune Cookie!</span>
+                </button>
+                <div id="fortune-message" class="hidden"></div>
+            </div>
+            <!-- This is where you add your social media links. Customize these to fit your needs! -->
             <div class="links">
-                <!-- Updated social links -->
-                <a href="#" class="link-item">
-                    <i class="fab fa-instagram"></i>
-                    <span>Instagram</span>
+                <!-- Each link-item represents a social media platform -->
+                <a href="https://kick.com/inivert" class="link-item" target="_blank" rel="noopener noreferrer">
+                    <i class="fas fa-gamepad"></i>
+                    <span class="sliding-text">Kick (Tuesdays 9pm, Fridays-Saturdays 9pm)</span>
                 </a>
-                <a href="#" class="link-item">
+                <a href="https://x.com/inivert_0" class="link-item" target="_blank" rel="noopener noreferrer">
                     <i class="fab fa-twitter"></i>
                     <span>X</span>
                 </a>
-                <a href="#" class="link-item">
+                <a href="https://www.youtube.com/@inivert_0" class="link-item" target="_blank" rel="noopener noreferrer">
                     <i class="fab fa-youtube"></i>
                     <span>YouTube</span>
                 </a>
-                <a href="#" class="link-item">
+                <a href="https://www.tiktok.com/@inivert" class="link-item" target="_blank" rel="noopener noreferrer">
                     <i class="fab fa-tiktok"></i>
                     <span>TikTok</span>
                 </a>
-                <a href="#" class="link-item">
-                    <i class="fas fa-gamepad"></i>
-                    <span>Kick</span>
+                <a href="https://www.instagram.com/carlito634/" class="link-item" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-instagram"></i>
+                    <span>Instagram</span>
                 </a>
-                <a href="#" class="link-item">
+                <a href="https://www.twitch.tv/inivert_0" class="link-item" target="_blank" rel="noopener noreferrer">
                     <i class="fab fa-twitch"></i>
-                    <span>Twitch</span>
+                    <span class="sliding-text-container"><span class="sliding-text">Twitch (Tuesdays, Fridays, Saturdays 9pm)</span></span>
                 </a>
             </div>
         </main>
@@ -62,12 +79,15 @@
             </footer>
         </div>
     </div>
-    <!-- Placeholder for future music player -->
+    <!-- Placeholder for future music player. I might add this feature later! -->
     <div id="music-player"></div>
-    <a href="#" id="github-link" class="social-icon">
+    <!-- GitHub link. You can customize this to link to your own GitHub profile -->
+    <a href="https://github.com/inivert" id="github-link" class="social-icon">
         <i class="fab fa-github"></i>
     </a>
+    <!-- This canvas is used for the particle animation background -->
     <canvas id="particleCanvas"></canvas>
+    <!-- These scripts handle the interactive elements and animations -->
     <script src="script.js"></script>
     <script src="particles.js"></script>
 </body>
